@@ -27,7 +27,7 @@ public class BoaViagemActivity extends Activity {
         String senhaInformada = this.idSenha.getText().toString();
 
         if(usuarioInformado.equals("usj")
-                & senhaInformada.equals("123")){
+                & senhaInformada.equals("1234")){
             Intent intent = new Intent(this,
                     DashboardActivity.class);
             startActivity(intent);
